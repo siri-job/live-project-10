@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+
+.container{
+    background-image: url(/Assets/bgc.jpeg);
+    background-size: cover;
+    width: 93vw;
+    height: 90vh;
+    padding: 50px;
+    color: white;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    align-items: center;
+    position: relative;
+}
+
+nav::after{
+    content: "";
+    background-color: #fff;
+    height: 3px;
+    width: 70%;
+   position: absolute;
+   bottom: 0;
+   right: 0;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    width: 200px;
+}
+.contact i{
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+/* main */
+
+h1{
+    font-size: 4em;
+    width: 600px;
+    position: absolute;
+    bottom: 400px;
+    left: 100px;
+}
+ button{
+    color: white;
+    padding: 15px 45px;
+    background-color: hsl(0, 0%, 0%, 0.1);
+     border-radius: 36px;
+     position: absolute;
+     left: 110px;
+     bottom: 250px;
+     border: 2px solid white;
+}
+
+.card1{
+    width: 250px;
+    height: 100px;
+    background-color: hsl(0, 0%, 100%,0.2);
+    position:absolute;
+    right:100px;
+    top: 200px;
+    padding: 15px;
+}
+
+.card1::after{
+    content: " ";
+    background-color: white;
+    height: 60px;
+    width: 2px;
+    position: absolute;
+    bottom: -60px;
+    right: 60px;
+}
+
+
+.card1 span{
+    content: " ";
+background-color: #fff;
+width: 20px;
+height: 20px;
+position: absolute;
+border-radius: 50%;
+bottom: -70px;
+right: 52px;
+
+}
+
+
+.card1 h1{
+    width: 200px;
+}
+
+.card1 i{
+    background-color: #fff;
+    color: black;
+    vertical-align: middle;
+    padding: 8px 25px;
+    border-radius: 36px;
+}
+
+
+
+
+.card2{
+    width: 250px;
+    height: 100px;
+    background-color: hsl(0, 0%, 100%,0.2);
+    position:absolute;
+    right:500px;
+    bottom: 200px;
+    padding: 15px;
+}
+
+.card2 i{
+    background-color: #fff;
+    color: black;
+    vertical-align: middle;
+    padding: 8px 25px;
+    border-radius: 36px;
+}
+
+
+.card2::after{
+    content: " ";
+    background-color: white;
+    height: 2px;
+    width: 60px;
+    position: absolute;
+    right: 0;
+    right: -60px;
+    bottom: 60px;
+    
+}
+.card2 span{
+    content: " ";
+background-color: #fff;
+width: 20px;
+height: 20px;
+position: absolute;
+border-radius: 50%;
+right: -80px;
+top: 59px;
+
+
+}
+
+.card2 h1{
+    width: 200px;
+}

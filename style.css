@@ -8,10 +8,11 @@
     background-image: url(/Assets/bgc.jpeg);
     background-size: cover;
     width: 93vw;
-    height: 90vh;
+    height: 110vh;
     padding: 50px;
     color: white;
     position: relative;
+    overflow: hidden;
 }
 
 nav{
@@ -104,9 +105,9 @@ right: 52px;
 }
 
 
-.card1 h1{
+/* .card1 h1{
     width: 200px;
-}
+} */
 
 .card1 i{
     background-color: #fff;
@@ -162,6 +163,108 @@ top: 59px;
 
 }
 
-.card2 h1{
+/* .card2 h1{
     width: 200px;
+} */
+
+
+/* <<mobile responsive>> */
+
+@media screen and (max-width:1070px) {
+    .card2{
+       
+        right:300px;
+        bottom: 200px;
+        
+    }
 }
+
+
+@media screen and (max-width:840px) {
+    
+    .card1{
+        width: 200px;
+        height: 80px;
+        top:180px;
+        
+    }
+    .card2{
+        width: 200px;
+        height: 80px;
+        right:200px;
+        
+        
+    }
+
+    .card2::after{
+        
+        display: none;
+        
+    }
+    .card2 span{
+        display: none;
+    
+    
+    }
+    .card1::after{
+        
+        display: none;
+        
+    }
+    .card1 span{
+        display: none;
+    
+    
+    }
+
+
+    }
+@media screen and (max-width:690px) {
+    ul{
+        display: none;
+    }
+
+    
+
+    .card2{
+        
+        right:170px;
+        
+        
+    }
+    .card2{
+        display: none;
+    }
+
+    main h1{
+        font-size: 3em;
+
+        left: 50px;
+    }
+
+    
+}
+
+@media screen and (max-width:540px){
+
+    main h1{
+        font-size: 2em;
+
+        left: 80px;
+        width: 400px;
+        bottom: 600px;
+        
+    }
+
+    button{
+        
+         bottom: 500px;
+         left: 150px;
+         
+    }
+    
+}
+
+
+
+
